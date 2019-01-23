@@ -1,6 +1,8 @@
 from werkzeug.routing import BaseConverter, ValidationError
 from ulid import from_str
 
+__version__ = '0.1.1'
+
 
 class ULIDConverter(BaseConverter):
     """
